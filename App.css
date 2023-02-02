@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
+
+body{
+  background: linear-gradient(to right, #35acdf, #c33eba); 
+}
+
+.App {
+  text-align: center;
+  border-radius: 10px;
+  margin: 50px 500px;
+  padding-bottom: 150px;
+  box-shadow: 2px 4px 5px 6px rgba(15, 4, 91, 0.4);
+  transition: 0.3s;
+}
+
+.header{
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.label{
+  padding: 5px 0px 0px 10px;
+  display: flex;
+  text-align: left;
+  text-shadow: #216bff;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.form_label{
+  width: 40%;
+}
+
+.form_input{
+  width: 60%;
+  padding: 8px;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+.form_input:hover{
+  background-color: rgb(247, 247, 247);
+}
+
+
+.button {
+  text-align: center;
+  width: 20%;
+  padding: 10px 5px;
+  box-sizing: border-box;
+  background-color: greenyellow;
+  border-radius: 10px;
+  cursor: pointer;
+ }
+
+ .button:hover{
+  background-color: rgb(12, 255, 158);
+ }
